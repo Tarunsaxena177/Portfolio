@@ -25,10 +25,10 @@ const Contact = () => {
           <h3 className='text-2xl font-semibold text-blue-300 mb-6'>Let’s Connect 🚀</h3>
           <p className='text-gray-300 mb-6'>Have a project in mind or just want to say hello? Drop me a message — I’ll get back to you as soon as possible.</p>
           <div className='space-y-4 text-gray-300'>
-            <div className='flex items-center gap-3'><FaEnvelope className='text-blue-400' /> <span>tarunsaxena.dev@gmail.com</span></div>
-            <div className='flex items-center gap-3'><FaPhoneAlt className='text-blue-400' /> <span>+91 9876543210</span></div>
-            <div className='flex items-center gap-3'><FaLinkedin className='text-blue-400' /> <a href='https://www.linkedin.com/in/tarunsaxena' target='_blank' rel='noreferrer' className='hover:underline'>linkedin.com/in/tarunsaxena</a></div>
-            <div className='flex items-center gap-3'><FaGithub className='text-blue-400' /> <a href='https://github.com/tarunsaxena' target='_blank' rel='noreferrer' className='hover:underline'>github.com/tarunsaxena</a></div>
+            <div className='flex items-center gap-3'><FaEnvelope className='text-blue-400' /> <span>tarunsaxena111162@gmail.com</span></div>
+            <div className='flex items-center gap-3'><FaPhoneAlt className='text-blue-400' /> <span>+91 9540042204</span></div>
+            <div className='flex items-center gap-3'><FaLinkedin className='text-blue-400' /> <a href='https://www.linkedin.com/in/tarun-saxena-980b86239/' target='_blank' rel='noreferrer' className='hover:underline'>linkedin.com/in/tarunsaxena</a></div>
+            <div className='flex items-center gap-3'><FaGithub className='text-blue-400' /> <a href='https://github.com/Tarunsaxena177' target='_blank' rel='noreferrer' className='hover:underline'>github.com/tarunsaxena</a></div>
           </div>
         </motion.div>
 
