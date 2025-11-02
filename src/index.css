@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #00f5ff;
+  --bg-start: #0a0f1e;
+  --bg-end: #00132b;
+}
+
+body {
+  background: linear-gradient(180deg, var(--bg-start), var(--bg-end));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Animated background helpers */
+:root{ --mx:50%; --my:50%; }
+
+.pointer-events-none { pointer-events: none; }
+
+/* subtle glow for highlighted containers */
+.glow-strong { box-shadow: 0 8px 40px rgba(0,150,255,0.12), 0 2px 10px rgba(124,77,255,0.06); }
+
