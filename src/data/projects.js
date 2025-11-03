@@ -1,10 +1,16 @@
+import FoodieflyImg from "../assets/project-images/Foodiefly.png";
+import AiVirtualImg from "../assets/project-images/Ai Virtual.png";
+import AirbnbImg from "../assets/project-images/Airbnb_clone.png";
+import ScraperImg from "../assets/project-images/scraper.jpg";
+import CrudImg from "../assets/project-images/crud-app.png";
+
 const PROJECTS = [
   {
     id: 'foodiefly',
     title: 'Foodiefly: Food Delivery Website',
     category: 'Full Stack',
     tech: 'HTML, CSS, Javascript, React, Node, JWT, MongoDB',
-    image: '/src/assets/project-images/Foodiefly.png',
+    image: FoodieflyImg,
     desc: 'Built a scalable food delivery app with login, cart, and real-time order tracking using MERN stack.',
     longDesc: [
       'Built a full-stack Food Delivery Website scalable to 1M+ users using React.js and Node.js.',
@@ -21,7 +27,7 @@ const PROJECTS = [
     title: 'AI Virtual Assistant',
     category: 'AI',
     tech: 'Javascript, MERN Stack, OpenAI API, JWT, Render',
-    image: '/src/assets/project-images/Ai Virtual.png',
+    image: AiVirtualImg,
     desc: 'Integrated NLP-based intent recognition and speech modules for a natural conversational experience.',
     longDesc: [
       'Integrated speech-to-text and text-to-speech modules, enabling natural voice interactions.',
@@ -37,7 +43,7 @@ const PROJECTS = [
     title: 'Airbnb Clone',
     category: 'Full Stack',
     tech: 'Javascript, React, Node.js, Express, MongoDB',
-    image: '/src/assets/project-images/Airbnb_clone.png',
+    image: AirbnbImg,
     desc: 'Developed an Airbnb-like platform with user authentication, booking flow, and property management.',
     longDesc: [
       'Built an Airbnb clone with Node.js & Express, supporting dynamic listings and responsive design.',
@@ -53,7 +59,7 @@ const PROJECTS = [
     title: 'Hospital Records Scraper',
     category: 'Frontend',
     tech: 'MERN Stack (MongoDB, Express, React, Node)',
-    image: '/src/assets/project-images/scraper.jpg',
+    image: ScraperImg,
     desc: 'Built a multithreaded web scraper for hospital directories, achieving 95%+ success rate.',
     longDesc: [
       'Engineered a multithreaded crawler to extract hospital records 50x faster from target medical directories.',
@@ -68,7 +74,7 @@ const PROJECTS = [
     title: 'CRUD Operation',
     category: 'Full Stack',
     tech: 'MERN Stack (MongoDB, Express, React, Node.js)',
-    image: '/src/assets/project-images/crud-app.png',
+    image: CrudImg,
     desc: 'Developed a full-featured CRUD application for managing user data using the MERN stack.',
     longDesc: [
       'Built a responsive CRUD web app enabling users to Create, Read, Update, and Delete records seamlessly.',
