@@ -3,7 +3,7 @@ import AiVirtualImg from "../assets/project-images/Ai Virtual.png";
 import AirbnbImg from "../assets/project-images/Airbnb_clone.png";
 import ScraperImg from "../assets/project-images/scraper.jpg";
 import CrudImg from "../assets/project-images/crud-app.png";
-import SlotSwapperImg from "../assets/project-images/SlotSwapper.png";
+import SlotSwapperImg from "../assets/project-images/Slotswapper.png";
 
 const PROJECTS = [
   {
