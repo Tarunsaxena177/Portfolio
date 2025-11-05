@@ -3,6 +3,7 @@ import AiVirtualImg from "../assets/project-images/Ai Virtual.png";
 import AirbnbImg from "../assets/project-images/Airbnb_clone.png";
 import ScraperImg from "../assets/project-images/scraper.jpg";
 import CrudImg from "../assets/project-images/crud-app.png";
+import SlotSwapperImg from "../assets/project-images/SlotSwapper.png";
 
 const PROJECTS = [
   {
@@ -85,7 +86,26 @@ const PROJECTS = [
     github: 'https://github.com/Tarunsaxena177/BitsandVolts_Tarun.git',
     live: 'https://bitsandvolts-tarun-1.onrender.com/',
     video: ''
-  }
+  },
+  {
+  id: 'slotswapper',
+  title: 'SlotSwapper: Schedule Slot Swapping Platform',
+  category: 'Full Stack',
+  tech: 'React, Tailwind, Node.js, Express, MongoDB, Socket.IO, JWT',
+  image: SlotSwapperImg, 
+  desc: 'A real-time platform enabling users to swap time slots with live notifications and secure authentication.',
+  longDesc: [
+    'Developed a full-stack scheduling platform enabling users to swap available slots using React and Node.js.',
+    'Implemented secure login/signup using JWT and protected routes with custom middleware.',
+    'Integrated real-time swap request and notification system using Socket.IO with user-specific targeting.',
+    'Achieved smooth user experience with modular components, RESTful APIs, and dynamic marketplace logic.',
+    'Deployed on Render with frontend-build optimizations and environment-managed backend.'
+  ],
+  github: 'https://github.com/Tarunsaxena177/SlotSwapper.git', 
+  live: 'https://slotswapper-g46h.onrender.com', 
+  video: ''
+}
+
 ];
 
 export default PROJECTS;
